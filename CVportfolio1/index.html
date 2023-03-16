@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Portfolio</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My CV</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color: #333;
+			color: white;
+			height: 100%;
+			position: fixed;
+			width: 200px;
+		}
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		nav li {
+			padding: 10px;
+			font-size: 18px;
+			border-top: 1px solid white;
+		}
+		nav li:hover {
+			background-color: #4CAF50;
+		}
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.container {
+			margin-left: 200px;
+			padding: 20px;
+		}
+		.profile-img {
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My CV</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="link1.html">Address and Contact</a></li>
+			<li><div class="dropdown">
+					<a href="#">Highest Education</a>
+					<div class="dropdown-content">
+						<a href="#">-HNTec in Automoble Technology</a>
+                        <br>
+						<a href="#">-SC2 in Automotive Technician</a>
+					</div>
+				</div>
+			</li>
+			<li><a href="link2.html">Experience</a></li>
+			<li><a href="link3.html">Skills</a></li>
+			<li><a href="#">extra</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<img src="profile.jpg" alt="Profile Picture" class="profile-img">
+		<p> I am a technician previously working as an automobile technician for 5 years and 
+            I am ready to transition into a position that presents an exciting new set of challenges.
+            I have the willingness to learn a new skills and is very committed to improve. Able to
+            I am seeking to begin career with a computer programming position in a reputable company. <br>
+            Thank you for considering my application.
+            </p>
+		<p>Click <a href="insert">here</a> to view my resume.</p>
+	</div>
+</body>
+</html>
