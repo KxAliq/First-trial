@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 { 
+            color: blue;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        form {
+            border: solid royalblue 2px;
+            padding: 20px;
+        }
+
+        legend {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .inputs {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+
+    <form action="#">
+        <fieldset>
+            <legend>Contact</legend>
+            <div class="inputs">
+                <label for="">Name:</label>
+                <input type="text" name="" id="name " />
+            </div>
+
+            <div class="inputs"> 
+                <label for="phone">phone:</label>
+                <input type="text" id="phone" />
+            </div>
+
+            <div class="inputs">
+                gender:
+                <!-- <input id="gender-male" type="radio" name="gender" value="male" />
+                <label for="gender-male"> Male </label> -->
+                <label>
+                    <input type="radio" name="gender" value="male" />
+                    Male
+                </label>
+               
+                
+        </fieldset>
+
+        <input type="submit" value="send" />
+    </form>
+</body>
+</html>
