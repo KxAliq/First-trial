@@ -37,3 +37,26 @@ body {
 .h2 {
     background-color: rgb(4, 96, 150);
 }
+
+#info {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #info td, #info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #info tr:nth-child(even){background-color: #f0a6a6;}
+  
+  #info tr:hover {background-color: #dddddd97;}
+  
+  #info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e9670;
+    color: white;
+  }
